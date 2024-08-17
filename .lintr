@@ -1,0 +1,7 @@
+linters: linters_with_defaults(
+    line_length_linter(125),
+    commented_code_linter = NULL
+) # see vignette("lintr") https://lintr.r-lib.org/articles/lintr.html
+exclusions: list(
+  )
+encoding: "UTF-8"
